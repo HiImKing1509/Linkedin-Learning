@@ -1,0 +1,38 @@
+:root 
+{
+    --text-color1: red;
+    --text-color2: pink;
+    --text-color3: orange;
+    --text-color4: white;
+    /* Biến trong root là biến toàn cục */
+}
+
+h1
+{
+    --my-color: blue; /* Biến cục bộ của h1 */
+    color: var(--text-color2); /* Gọi hàm bắt đầu bằng var */
+    font-size: 50px;
+}
+#firstli
+{
+    color: pink;
+}
+#secondli
+{
+    color: orangered;
+}
+.allli
+{
+    color: red;
+}
+.parent.children
+{
+    color: red;
+}
+.box
+{
+    width: 50%;
+    height: 70%;
+    background-color: red;
+}
+/* Đơn vị trong CSS */
